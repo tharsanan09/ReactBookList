@@ -1,7 +1,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #fffbfb;
+  background-color: darkslategray;
   margin: 0;
   padding: 50px;
 }
@@ -13,6 +13,7 @@ body {
 .book-list {
   display: flex;
   gap: 20px;
+  justify-content: center;
 }
 
 .book {
@@ -20,7 +21,8 @@ body {
   padding: 10px;
   border-radius: 5px;
   width: 200px;
-  text-align: left;
+  text-align: center;
   background-color: #f1976d;
   transition: transform 0.2s;
+  
 }
